@@ -24,7 +24,7 @@ async def init():
         and not config.STRING5
     ):
         LOGGER("AnonX").error(
-            "𝐌𝐘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 🦋⃟ ᴠͥɪͣᴘͫ 🇴 🇽 𝐘 𝐆 𝐄 𝐍⃝⃝⃪⃕🥀🦋͜͡•─⃛͢."
+            "𝐌𝐘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 𓂃⃪ํֶ𝙎𝙈𝘼𝙍𝙏𝙔 𝙑𝙁™ ̶꯭❍͢͠ᴘ𓂃[🇮🇳]•─⃛͢."
         )
         return
     if (
@@ -32,7 +32,7 @@ async def init():
         and not config.SPOTIFY_CLIENT_SECRET
     ):
         LOGGER("AnonX").warning(
-            "𝐌𝐘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 🦋⃟ ᴠͥɪͣᴘͫ 🇴 🇽 𝐘 𝐆 𝐄 𝐍⃝⃝⃪⃕🥀🦋͜͡•─⃛͢."
+            "𝐌𝐘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 𓂃⃪ํֶ𝙎𝙈𝘼𝙍𝙏𝙔 𝙑𝙁™ ̶꯭❍͢͠ᴘ𓂃[🇮🇳]•─⃛͢."
         )
     try:
         users = await get_gbanned()
@@ -47,7 +47,7 @@ async def init():
     for all_module in ALL_MODULES:
         importlib.import_module("AnonX.plugins." + all_module)
     LOGGER("AnonX.plugins").info(
-        "Necessary ™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍 Modules Imported Successfully."
+        "Necessary 𓂃⃪ํֶ𝙎𝙈𝘼𝙍𝙏𝙔 𝙑𝙁™ ̶꯭ Modules Imported Successfully."
     )
     await userbot.start()
     await Anon.start()
